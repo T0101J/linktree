@@ -1,0 +1,88 @@
+
+html{
+        background-color: #E4E9FD;
+        min-height: 1000px;
+        font-family: 'helvetica neue';
+    }
+
+div.wrapper {
+    max-width: 400px;
+    margin: 50px auto;
+    border-radius: 5px;
+    background-color:#071635;
+
+}
+.header{
+    align-items: center;
+    text-align: center;
+}
+
+div.header img{
+    width: 10rem;
+    height: 7rem;
+    margin-top: 5px;
+}
+.header p{
+    font-size: 15pt;
+    color: #fff;
+    margin: 5px;
+
+}
+.content{
+    text-align: center;
+    margin: 0 auto;
+    width: 80%;
+}
+.content div{
+    background-color:#AB9245;
+    border-radius: 5px;
+    padding: 1px;
+    margin: 10px;
+    
+}
+
+.content h3{
+    color: #fff;
+    font-size: 15pt;
+}
+
+.content h3:hover{
+    color: #071635;
+}
+
+.footer{
+    padding: 10px;
+    text-align: center;
+    color: #ccc;
+}
+.footer span {
+    font-size:10px;
+}
+.location{
+    animation-name: go-back ;
+    animation-duration: 2s ;
+
+}
+.youtube{
+    animation-name: go-back; 
+    animation-duration: 2.25s 
+
+}
+.whats{
+    animation-name: go-back; 
+    animation-duration: 2.5s ;
+}
+.face{
+    animation-name: go-back; 
+    animation-duration: 3s;
+}
+.site{
+    animation-name: go-back; 
+    animation-duration: 3.25s;
+}
+
+    @keyframes go-back {
+        0%   { left:0px; top:0px;}
+        25%  { left:200px; top:0px;}
+    }
+
